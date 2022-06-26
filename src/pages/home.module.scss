@@ -1,51 +1,52 @@
 .posts{
   margin-top: 2rem;
 
-  > a {
+  > a{
     display: block;
   }
-
-  a + a{
+ 
+  a + {
     margin-top: 3rem;
   }
-
   button{
     border:none;
-    background: none;
-    font-weight: 600;
+    background: transparent;
     font-size: 1.125rem;
-    color: var(--highlight);
+    font-weight: 600;
+    color: var(--hightlight);
     margin-top: 4rem;
   }
 }
-
 .post{
   strong{
-  font-size: 1.75rem;
-  font-weight: bold;
-  color: var(--heading);
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var(--head);
   }
 
   p{
     margin-top: 0.5rem;
     font-size: 1.125rem;
+    color: var(--head);
   }
 
   ul{
     list-style: none;
     margin-top: 1.5rem;
-    display:flex;
+    margin-bottom: 3rem;
+    display: flex;
 
     & li{
-      font-size: 0.875;
+      font-size: 0.875rem;
 
       & svg{
         margin-right: 0.5rem;
       }
-
-      & + li {
+      & + li{
         margin-left: 1.625rem;
       }
     }
   }
+
+
 }
